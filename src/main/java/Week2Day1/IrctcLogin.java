@@ -32,7 +32,7 @@ public class IrctcLogin {
 
 		WebElement source=driver.findElementById("userRegistrationForm:securityQ");
 		Select dd = new Select(source);
-		dd.selectByIndex(3);
+		dd.selectByIndex(4);
 		driver.findElementById("userRegistrationForm:securityAnswer").sendKeys("ZPHS");
 
 		//personal info first name middle name and last name
